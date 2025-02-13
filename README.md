@@ -13,12 +13,17 @@ Using this Github repo:
 3) Run the following in seperate (new) terminals :
 
 a) cd ~/BehaviorTree/Groot/build/
+
   ./Groot
 
 b) cd ~/turtlebot3_ws/
+
   . install/setup.bash
+  
   ros2 launch turtlebot3_gazebo turtlebot3_jp_world_empty.launch.py
 
 c) cd ~/dev_ws/
+
   . install/setup.bash
+  
   ros2 run tb3_behavior_tree tb3_behavior_node
